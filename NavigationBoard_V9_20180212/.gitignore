@@ -1,0 +1,13 @@
+output
+Output
+OutPut
+Objects
+*.o
+*.O 
+*.d
+*.crf
+*.axf
+*.hex
+*.htm
+
+

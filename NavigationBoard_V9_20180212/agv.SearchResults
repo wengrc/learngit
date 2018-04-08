@@ -1,0 +1,8 @@
+---- HardFault_Handler Matches (7 in 4 files) ----
+BootUpdate.htm (project):70: <LI><a href="#[b]">HardFault_Handler</a> from stm32f4xx_it.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
+BootUpdate.htm (project):324:<P><STRONG><a name="[b]"></a>HardFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4xx_it.o(.text))
+startup_stm32f10x_md.s (Libraries\CMSIS\startup):64:                DCD     HardFault_Handler          ; Hard Fault Handler
+startup_stm32f10x_md.s (Libraries\CMSIS\startup):145:HardFault_Handler\
+startup_stm32f10x_md.s (Libraries\CMSIS\startup):147:                EXPORT  HardFault_Handler          [WEAK]
+stm32f10x_it.c (source\user):61:void HardFault_Handler(void)
+stm32f10x_it.h (Libraries\STM32F10x_StdPeriph_Driver\inc):39:void HardFault_Handler(void);
